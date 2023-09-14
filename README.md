@@ -1,2 +1,2 @@
 # technews
-rojeto final do curso de programação básica fornecido pela FAESP
+Projeto final do curso de programação básica fornecido pela FAESP
