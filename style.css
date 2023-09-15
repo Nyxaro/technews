@@ -103,6 +103,67 @@ header {
         max-height: 200px;
     }
 
+.news33 {
+        flex: 20%;
+        background-color: #d0d0d0;
+        padding: 20px;
+        box-sizing: border-box;
+        margin-left: 15px;
+        margin-right: 15px;
+        background-image: url(bomb.jpg);
+        background-size: cover;
+        background-position: center;
+        border-radius: 10px;
+        max-width: 300px;
+        max-height: 200px;
+}
+
+.news4 {
+    align-items: center;
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 90px;
+    box-sizing: border-box;
+    justify-content: center;
+    background-image: url(rover.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    max-width: 700px;
+    max-height: 400px;
+
+}
+
+.news5 {
+    align-items: center;
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 90px;
+    box-sizing: border-box;
+    justify-content: center;
+    background-image: url(dados.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    max-width: 700px;
+    max-height: 400px;
+}
+
+.news6 {
+    align-items: center;
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 90px;
+    box-sizing: border-box;
+    justify-content: center;
+    background-image: url(technews.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    max-width: 700px;
+    max-height: 400px;
+}
+
 .section {
     max-width: 800px; /* Define a largura máxima para o texto */
     margin: 0 auto; /* Define as margens automáticas para centralizar */
@@ -114,7 +175,7 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    background-color: #333;
+    background-image: url(footer.png);
     color: white;
 }
 
@@ -140,7 +201,7 @@ header {
 
 /* Estilo para o rodapé inferior */
 .footer-bottom {
-    background-color: #222;
+    background-color: black;
     color: white;
     text-align: center;
     padding: 10px;
