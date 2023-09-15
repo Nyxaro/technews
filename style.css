@@ -1,6 +1,5 @@
 *{
     
-    
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
     color: white;
@@ -70,6 +69,8 @@ header {
         background-size: cover;
         background-position: center;
         border-radius: 10px;
+        max-width: 700px;
+        max-height: 400px;
     }
 
 .news2 {
@@ -83,6 +84,8 @@ header {
         background-size: cover;
         background-position: center;
         border-radius: 10px;
+        max-width: 400px;
+        max-height: 300px;
     }
 
 .news3 {
@@ -96,12 +99,51 @@ header {
         background-size: cover;
         background-position: center;
         border-radius: 10px;
+        max-width: 300px;
+        max-height: 200px;
     }
 
 .section {
     max-width: 800px; /* Define a largura máxima para o texto */
     margin: 0 auto; /* Define as margens automáticas para centralizar */
     text-align: left; /* Alinha o texto à esquerda */
+}
+
+/* Estilo para o container do footer */
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+/* Estilo para as colunas do footer */
+.footer-column {
+    flex: 1;
+    padding: 10px;
+}
+
+/* Estilo para os links do footer */
+.footer-column a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+/* Estilo para o logotipo no footer */
+.footer-logo {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilo para o rodapé inferior */
+.footer-bottom {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
 
 
